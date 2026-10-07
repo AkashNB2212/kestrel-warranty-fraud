@@ -9,7 +9,6 @@ This project scores each warranty claim for fraud risk **before payout**, so the
 | Evidence | `VALIDATION.md`, `reports/`, `tests/` (37 tests) |
 | Memo | `MEMO_Ritu_Deshpande.md` |
 | Decisions / AI log / recording plan | `DECISIONS.md`, `PROMPT_EVOLUTION.md`, `SCREEN_RECORDING_SCRIPT.md` |
-| Form | `submission-form.md` |
 
 ## Architecture
 

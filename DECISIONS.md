@@ -79,6 +79,6 @@ Holdout PR-AUC moved 0.532 → 0.533 → 0.529; recall within capacity was uncha
 
 **D-18 No LLM in the product.** Scoring and reasons are deterministic, and no API key is needed. An LLM would add no measurable value on 13 fixed fault phrases. It would also be exposed to partner-typed free text, which is untrusted input.
 
-**D-19 `submission-form.md` was not in the pack.** The brief asks for it, but no template was supplied. I created it using the brief's own deliverable list (1–6) as its structure, and it should be pasted into the official form if one exists.
+**D-19 Submission form.** The brief asks for a filled submission form, but no template was in the pack. It is submitted separately and is not part of this repository.
 
 **D-20 Confidentiality.** Nothing is pushed anywhere. `.gitignore` excludes every task-pack file and the model artifact (which embeds outlet history), per policy §10.
