@@ -1,0 +1,14 @@
+# Python 3.10-3.12. Pinned to the versions the model artifact was built and tested with.
+numpy==1.26.4
+scipy==1.14.1
+pandas==2.2.3
+scikit-learn==1.5.2
+joblib>=1.2,<2
+statsmodels==0.14.4
+fastapi==0.115.0
+uvicorn==0.32.0
+pydantic==2.12.5
+httpx==0.28.1
+requests==2.32.4
+streamlit==1.44.1
+pytest==7.4.0

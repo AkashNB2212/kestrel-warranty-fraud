@@ -1,0 +1,331 @@
+{
+  "by_period_and_newness": [
+    {
+      "period": "post_1May26",
+      "new_partner": "0",
+      "claims": 1211,
+      "fraud": 2,
+      "partners": 315,
+      "fraud_inr": 18552.0,
+      "fraud_rate": 0.0017
+    },
+    {
+      "period": "post_1May26",
+      "new_partner": "1",
+      "claims": 211,
+      "fraud": 34,
+      "partners": 45,
+      "fraud_inr": 48571.0,
+      "fraud_rate": 0.1611
+    },
+    {
+      "period": "pre_1May26",
+      "new_partner": "0",
+      "claims": 8326,
+      "fraud": 104,
+      "partners": 320,
+      "fraud_inr": 569471.0,
+      "fraud_rate": 0.0125
+    },
+    {
+      "period": "pre_1May26",
+      "new_partner": "1",
+      "claims": 1398,
+      "fraud": 1,
+      "partners": 115,
+      "fraud_inr": 964.0,
+      "fraud_rate": 0.0007
+    }
+  ],
+  "by_period_and_tenure_bucket": [
+    {
+      "period": "post_1May26",
+      "tenure_bucket": "0-3m",
+      "claims": 79,
+      "fraud": 5,
+      "partners": 24,
+      "fraud_inr": 6044.0,
+      "fraud_rate": 0.0633
+    },
+    {
+      "period": "post_1May26",
+      "tenure_bucket": "3-6m",
+      "claims": 104,
+      "fraud": 22,
+      "partners": 26,
+      "fraud_inr": 30896.0,
+      "fraud_rate": 0.2115
+    },
+    {
+      "period": "post_1May26",
+      "tenure_bucket": "6-12m",
+      "claims": 28,
+      "fraud": 7,
+      "partners": 8,
+      "fraud_inr": 11631.0,
+      "fraud_rate": 0.25
+    },
+    {
+      "period": "post_1May26",
+      "tenure_bucket": "12-24m",
+      "claims": 261,
+      "fraud": 0,
+      "partners": 69,
+      "fraud_inr": 0.0,
+      "fraud_rate": 0.0
+    },
+    {
+      "period": "post_1May26",
+      "tenure_bucket": "24m+",
+      "claims": 950,
+      "fraud": 2,
+      "partners": 251,
+      "fraud_inr": 18552.0,
+      "fraud_rate": 0.0021
+    },
+    {
+      "period": "pre_1May26",
+      "tenure_bucket": "0-3m",
+      "claims": 240,
+      "fraud": 0,
+      "partners": 53,
+      "fraud_inr": 0.0,
+      "fraud_rate": 0.0
+    },
+    {
+      "period": "pre_1May26",
+      "tenure_bucket": "3-6m",
+      "claims": 293,
+      "fraud": 1,
+      "partners": 56,
+      "fraud_inr": 964.0,
+      "fraud_rate": 0.0034
+    },
+    {
+      "period": "pre_1May26",
+      "tenure_bucket": "6-12m",
+      "claims": 865,
+      "fraud": 0,
+      "partners": 80,
+      "fraud_inr": 0.0,
+      "fraud_rate": 0.0
+    },
+    {
+      "period": "pre_1May26",
+      "tenure_bucket": "12-24m",
+      "claims": 2319,
+      "fraud": 13,
+      "partners": 167,
+      "fraud_inr": 68046.0,
+      "fraud_rate": 0.0056
+    },
+    {
+      "period": "pre_1May26",
+      "tenure_bucket": "24m+",
+      "claims": 6007,
+      "fraud": 91,
+      "partners": 243,
+      "fraud_inr": 501425.0,
+      "fraud_rate": 0.0151
+    }
+  ],
+  "by_period_route_newness": [
+    {
+      "auto": "0",
+      "new_partner": "0",
+      "claims": 287,
+      "fraud": 1,
+      "partners": 192,
+      "fraud_inr": 17866.0,
+      "fraud_rate": 0.0035
+    },
+    {
+      "auto": "0",
+      "new_partner": "1",
+      "claims": 50,
+      "fraud": 0,
+      "partners": 25,
+      "fraud_inr": 0.0,
+      "fraud_rate": 0.0
+    },
+    {
+      "auto": "1",
+      "new_partner": "0",
+      "claims": 924,
+      "fraud": 1,
+      "partners": 304,
+      "fraud_inr": 686.0,
+      "fraud_rate": 0.0011
+    },
+    {
+      "auto": "1",
+      "new_partner": "1",
+      "claims": 161,
+      "fraud": 34,
+      "partners": 45,
+      "fraud_inr": 48571.0,
+      "fraud_rate": 0.2112
+    }
+  ],
+  "concentration_post": {
+    "new_partners_with_claims": 45,
+    "new_partners_with_any_fraud": 8,
+    "fraud_from_new_partners": 34,
+    "fraud_from_top5_new_partners": 29,
+    "top5_claims": 54,
+    "top5_fraud_rate": 0.537,
+    "other_new_partners_fraud_rate": 0.0318,
+    "other_new_partners_claims": 157,
+    "other_new_partners_fraud": 5,
+    "established_fraud_rate": 0.0017,
+    "established_claims": 1211,
+    "established_fraud": 2
+  },
+  "concentration_pre": {
+    "partners_with_any_fraud": 41,
+    "total_fraud": 105,
+    "top7_partner_fraud": 67,
+    "top7_fraud_after_1May": 0,
+    "top7_claims_after_1May": 34
+  },
+  "controlled_post": {
+    "new_only": {
+      "new_partner": {
+        "odds_ratio": 116.07,
+        "ci95": [
+          27.65,
+          487.21
+        ],
+        "p": 8.3e-11
+      }
+    },
+    "new_plus_route": {
+      "C(partner_type)[T.franchise]": {
+        "odds_ratio": 0.38,
+        "ci95": [
+          0.16,
+          0.9
+        ],
+        "p": 0.027
+      },
+      "C(partner_type)[T.freelance_technician]": {
+        "odds_ratio": 0.28,
+        "ci95": [
+          0.06,
+          1.3
+        ],
+        "p": 0.1
+      },
+      "new_partner": {
+        "odds_ratio": 127.13,
+        "ci95": [
+          29.82,
+          541.94
+        ],
+        "p": 5.8e-11
+      },
+      "auto": {
+        "odds_ratio": 128.75,
+        "ci95": [
+          5.91,
+          2803.52
+        ],
+        "p": 0.002
+      },
+      "near": {
+        "odds_ratio": 1.28,
+        "ci95": [
+          0.41,
+          3.99
+        ],
+        "p": 0.67
+      },
+      "log_amt": {
+        "odds_ratio": 4.17,
+        "ci95": [
+          1.19,
+          14.62
+        ],
+        "p": 0.026
+      }
+    },
+    "new_plus_route_excl_top5": {
+      "C(partner_type)[T.franchise]": {
+        "odds_ratio": 0.28,
+        "ci95": [
+          0.03,
+          2.6
+        ],
+        "p": 0.26
+      },
+      "C(partner_type)[T.freelance_technician]": {
+        "odds_ratio": 1.46,
+        "ci95": [
+          0.25,
+          8.54
+        ],
+        "p": 0.67
+      },
+      "new_partner": {
+        "odds_ratio": 23.57,
+        "ci95": [
+          4.42,
+          125.77
+        ],
+        "p": 0.00022
+      },
+      "auto": {
+        "odds_ratio": 24.19,
+        "ci95": [
+          0.45,
+          1311.95
+        ],
+        "p": 0.12
+      },
+      "log_amt": {
+        "odds_ratio": 4.76,
+        "ci95": [
+          0.66,
+          34.33
+        ],
+        "p": 0.12
+      }
+    }
+  },
+  "controlled_pre": {
+    "new_plus_controls": {
+      "C(partner_type)[T.franchise]": {
+        "odds_ratio": 3.48,
+        "ci95": [
+          2.22,
+          5.46
+        ],
+        "p": 5.7e-08
+      },
+      "C(partner_type)[T.freelance_technician]": {
+        "odds_ratio": 0.81,
+        "ci95": [
+          0.39,
+          1.68
+        ],
+        "p": 0.57
+      },
+      "new_partner": {
+        "odds_ratio": 0.05,
+        "ci95": [
+          0.01,
+          0.38
+        ],
+        "p": 0.0034
+      },
+      "log_amt": {
+        "odds_ratio": 2.16,
+        "ci95": [
+          1.77,
+          2.64
+        ],
+        "p": 5.3e-14
+      }
+    }
+  }
+}

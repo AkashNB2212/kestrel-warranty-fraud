@@ -1,0 +1,58 @@
+,coef
+cat__serial_fmt_whitespace,-0.9074779958845841
+num__days_since_purchase,-0.7883292919716262
+cat__family_Water Purifier,-0.7658129455943655
+num__post_change,-0.7149637406227787
+num__p_prior_frauds,-0.6414833268608877
+num__log_amount,-0.6407254475575027
+cat__family_Robot Vacuum,-0.6317204271531977
+cat__partner_type_freelance_technician,-0.44906195538573407
+cat__note_none,-0.4036889430526833
+num__new_partner,-0.38655069957568944
+num__p_near_thr_share_90d,-0.2968833565583267
+cat__fault_remote not working,-0.2911189484532901
+"cat__note_Unit inspected, fault confirmed",-0.28248800153607656
+cat__note_Heating element open circuit,-0.27534668761358894
+cat__fault_unit not heating,-0.24133105043541467
+num__inspected,-0.22649631860592886
+"cat__note_Photos match fault, approved",-0.19651035534856748
+cat__family_Room Heater,-0.188972902711409
+num__photo,-0.1601406883833533
+cat__note_Motor winding failure confirmed,-0.15079901537058224
+cat__fault_burning smell,-0.14795138638927183
+cat__fault_not charging,-0.11767744405922324
+cat__fault_water leaking,-0.11376487058481634
+num__p_uninspected_share_90d,-0.10899157478569561
+num__auto_approved,-0.10612762938109466
+cat__fault_display not working,-0.09186689518264565
+num__near_threshold,-0.0738881567212818
+cat__partner_type_franchise,-0.03136968329257319
+num__p_small_share_90d,-0.02335405545348889
+cat__fault_power button not working,0.0018055640208826005
+num__p_claims_30d,0.009872866146709106
+cat__serial_fmt_canonical,0.02387634176398783
+cat__fault_motor not running,0.024460696541139783
+cat__fault_loud noise while running,0.028810093116929267
+num__auto_x_near_threshold,0.050962849604710335
+cat__family_Air Fryer,0.07132851669494619
+num__warranty_used_frac,0.16408336483150224
+cat__fault_filter indicator stuck,0.18013742664893434
+cat__family_Ceiling Fan,0.20746736449338327
+cat__serial_fmt_lowercase,0.21365076380909803
+cat__note_PCB replaced under warranty,0.2352128959883688
+cat__fault_tripping mcb,0.24481209598901013
+num__tenure_days,0.26645765436242397
+cat__family_Induction Cooktop,0.3052508805828027
+num__p_claims_90d,0.34344101709532554
+cat__partner_type_authorised_service_centre,0.4804146000312675
+"cat__note_Minor fault, part swapped",0.5040378794992649
+cat__fault_blade jammed,0.523667680140723
+num__p_prior_decided,0.5574514287056815
+"cat__note_Customer has bill, serial verified",0.5695651887868213
+num__customer_prior_claims,0.6104766334170255
+cat__serial_fmt_hyphen,0.6699338516644426
+num__amount_to_list,0.9294031496061087
+num__auto_x_new_partner,0.9785791743086575
+cat__family_Mixer Grinder,1.0024424750407956
+num__p_fraud_rate_sm,1.0160235935973523
+num__log_list_price,1.3105853829258052

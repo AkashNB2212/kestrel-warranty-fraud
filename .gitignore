@@ -1,0 +1,12 @@
+# Client data must not leave the engagement (ops-policy §10). Never commit the task pack.
+*.csv
+!reports/final_model_coefficients.csv
+!predictions.csv
+ops-policy.pdf
+email-thread.txt
+README.txt
+reports/holdout_errors.csv
+artifacts/
+.venv/
+__pycache__/
+.pytest_cache/
