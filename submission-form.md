@@ -2,7 +2,7 @@
 
 > **Note:** the brief asks for `submission-form.md`, but it was not in the task pack I received. This form uses the brief's own deliverable list (1–6) as its structure. If an official template exists, these answers can be copied into it field by field.
 
-**Candidate:** _(name as on application)_ — akashnileemborgohain412@gmail.com
+**Candidate:** _(name as on application)_
 **Date:** 7 Oct 2026
 
 ---
