@@ -8,7 +8,7 @@ This project scores each warranty claim for fraud risk **before payout**, so the
 | Service | `service/api.py` (POST `/predict`), `service/app.py` (screen) |
 | Evidence | `VALIDATION.md`, `reports/`, `tests/` (37 tests) |
 | Memo | `MEMO_Ritu_Deshpande.md` |
-| Decisions / AI log / recording plan | `DECISIONS.md`, `PROMPT_EVOLUTION.md`, `SCREEN_RECORDING_SCRIPT.md` |
+| Decisions | `DECISIONS.md` |
 
 ## Architecture
 
@@ -121,7 +121,7 @@ The service fails politely in each of these cases:
 
 ## AI and build tools used
 
-Claude Code (Claude Opus 5.5) in the Claude desktop app was used for exploration, code, tests, docs and verification. There are no other tools and no API spend, and nothing in the product calls a model API. What was kept and what was discarded is in `PROMPT_EVOLUTION.md`.
+Claude Code (Claude Opus 5.5) in the Claude desktop app was used for exploration, code, tests, docs and verification. There are no other tools and no API spend, and nothing in the product calls a model API. Discarded along the way: gradient boosting as the final model, a reduced feature set, ordering the queue by rupee size, dropping legacy Zoho rows, `city` as a feature, and any LLM (see `DECISIONS.md`, D-12, D-15 and D-18).
 
 ## Known limitations
 
